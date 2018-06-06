@@ -12,7 +12,7 @@ pipeline {
         /* This stage builds the actual image; synonymous to
            docker build on the command line */
             steps {
-            sh "sudo docker build . -t customnginx:1"
+            sh "sudo docker build . -t customnginx:2"
             }    
         }
         stage('Test image') {
