@@ -28,7 +28,7 @@ pipeline {
         steps {
             sh "sudo docker login -u 'cloud_pursuit_appdev/sundeep.dhall@oracle.com' -p '_F;kalk73VVd48kkMEjo' phx.ocir.io"
             sh "sudo docker tag customnginx:1 phx.ocir.io/cloud_pursuit_appdev/sdhall/nginx:custom2"
-            sh 'sudo docker push phx.ocir.io/cloud_pursuit_appdev/sdhall/nginx:custom'
+            sh 'sudo docker push phx.ocir.io/cloud_pursuit_appdev/sdhall/nginx:custom2'
             
            }
          }      
